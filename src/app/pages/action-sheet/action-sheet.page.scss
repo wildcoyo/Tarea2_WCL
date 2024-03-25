@@ -1,0 +1,28 @@
+#open-action-sheet {
+    --background: #3880ff; /* Azul de Ionic */
+    --color: #ffffff; /* Texto blanco */
+    border-radius: 20px; /* Bordes redondeados */
+    font-size: 1.1rem; /* Tamaño de letra */
+    padding: 10px 20px; /* Ajuste de padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  .my-custom-class {
+    --background: #f4f5f8; /* Fondo claro */
+    --color: #000; /* Texto oscuro */
+    .action-sheet-button {
+      --border-color: #ddd; /* Bordes sutiles para los botones */
+    }
+    .action-sheet-group {
+      --border-color: #ddd; /* Bordes entre botones */
+    }
+  }
+  app-header {
+    background-color: #3880ff; /* Fondo azul para el header */
+    color: #fff; /* Texto blanco */
+    padding: 15px 0; /* Ajuste de padding */
+    font-weight: bold; /* Fuente en negrita */
+  }
+  :root {
+    --ion-color-primary: #3880ff; /* Azul principal */
+    --ion-color-primary-contrast: #ffffff; /* Contraste para el color principal */
+  }
